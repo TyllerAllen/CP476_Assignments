@@ -1,0 +1,108 @@
+body{
+	background-image: url("images/stucco/stucco.png"); 
+}
+
+#content > div{
+	width: 900px;
+	margin: 0 auto;
+	font-family: "Helvetica", Helvetica, serif;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li a{
+	border: none;
+	padding: 13px 15px;
+	text-align: center;
+	display: block;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.header{
+	background-color: #222222;
+	height: 40px;
+}
+
+.header li a{
+	float: right;
+	background-color: #222222;
+	color: #999999;
+}
+
+.header li a:hover{
+	background-color: #999999;
+	color: #222222;
+}
+
+.title{
+	font-size: 30px;
+	padding: 0px;
+	font-style: bold;
+	color: #2f2f2f;
+}
+
+.nav{
+	border: 1px solid #E5E5E5;
+	background-color: #F8F8F8;
+	height: 40px;
+}
+
+.nav li a{
+	float: left;
+	background-color: #F8F8F8;
+	color: #777777;
+}
+
+.nav li a:hover{
+	background-color: #777777;
+	color: #F8F8F8;
+}
+
+.main{
+	border: 1px solid #E5E5E5;
+	background-color: #F8F8F8;
+	height: 600px;
+}
+
+.pageBody img{
+	width: 300px;
+}
+
+.column{
+  float: left;
+  padding: 10px;
+}
+
+.column.left{
+  width: 25%;
+}
+
+.column.right{
+  width: 75%;
+}
+
+.pageBody:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer{
+	background-color: #222222;
+	color: #999999;
+	height: 40px;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	padding: 13px, 0px;
+}
+
+.footer p{
+	display: inline-block;
+}
