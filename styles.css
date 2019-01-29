@@ -241,7 +241,7 @@ li a{
 #form{
 	box-sizing: border-box;
 	padding: 10px;
-	height: 710px;
+	height: 900;
 	border: 1px solid #EEEEEE;
 	background-color: #FAFAFA;
 }
@@ -250,7 +250,6 @@ li a{
 	width: 100%;
 	line-height: 0;
 	height: 30px;
-	border: 1px solid black;
 	background-color: #FAFAFA;
 	margin-top: -5px;
 	margin-bottom: -5px;
@@ -266,7 +265,21 @@ li a{
 #sectionOne{
 	width: 750px;
 	height: 180px;
-	border: 1px solid black;
+}
+
+#sectionTwo{
+	width: 750px;
+	height: 270px;
+}
+
+#sectionThree{
+	width: 750px;
+	height: 140px;
+}
+
+#sectionFour{
+	width: 750px;
+	height: 60px;
 }
 
 .formTable{
@@ -282,6 +295,10 @@ li a{
 	width: 150px;
 }
 
+.formTable.sect3 td{
+	width: 400px;
+}
+
 .tableLabel{
 	font-weight: bold;
 	font-size: 13px;
@@ -294,6 +311,21 @@ li a{
 
 .tableInput input{
 	width: 300px;
+}
+
+input[type=radio]{
+	width: 20px;
+}
+
+input[type=color]{
+	width: 50px;
+}
+
+.radioTd{
+	font-size: 13px;
+}
+
+.tableInput input, .tableInput select{
 	padding: 5px;
 	border: 1px solid #cccccc;
 	border-radius: 8px;
@@ -301,6 +333,10 @@ li a{
 }
 
 #longInput{
+	width: 700px;
+}
+
+#longInput2{
 	width: 700px;
 }
 
@@ -317,5 +353,23 @@ li a{
 }
 
 #countryInput{
-	width: 100px;
+	width: 170px;
+}
+
+#rangeInput{
+	font-size: 13px;
+}
+
+#agreeInput{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+#submitInput > button{
+	background-color: lightblue;
+	color: gray;
+}
+
+#submitInput img{
+	width: 25px;
 }

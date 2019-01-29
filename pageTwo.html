@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Assignment 1 Page 2</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
@@ -48,7 +48,7 @@
 						<td><input type="text" name="lastname"></td>
 					</tr>
 					<tr class="tableLabel">
-						<td>Email</td>
+						<td colspan="2">Email</td>
 					</tr>
 					<tr class="tableInput">
 						<td colspan="2"><input id="longInput" type="email" placeholder="format for email is xxx@yyy.zzz" name="email"></td>
@@ -58,8 +58,8 @@
 						<td>Password Repeat</td>
 					</tr>
 					<tr class="tableInput">
-						<td><input type="text" name="password" placeholder="at least 8 characters"></td>
-						<td><input id="pwRepeat" type="text" name="passwordRepeat" placeholder="at least 8 characters"></td>
+						<td><input type="password" name="password" placeholder="at least 8 characters"></td>
+						<td><input id="pwRepeat" type="password" name="passwordRepeat" placeholder="at least 8 characters"></td>
 					</tr>
 				</table>
 			</div>
@@ -68,10 +68,10 @@
 			<div id="sectionTwo">
 				<table class="formTable sect2">
 					<tr class="tableLabel">
-						<td>Address</td>
+						<td colspan="4">Address</td>
 					</tr>
 					<tr class="tableInput">
-						<td colspan="4"><input id="longInput" type="text" name="address"></td>
+						<td colspan="4"><input id="longInput2" type="text" name="address"></td>
 					</tr>
 					<tr class="tableLabel">
 						<td colspan="2">City</td>
@@ -85,43 +85,62 @@
 					</tr>
 					<tr class="tableLabel">
 						<td colspan="2">Phone</td>
-						<td>Country</td>
+						<td colspan="2">Country</td>
 					</tr>
 					<tr class="tableInput">
 						<td colspan="2"><input type="tel" name="phone" placeholder="NNN-NNN-NNNN"></td>
-						<td colspan="2"><select id="country" name="country">
-							<option value="australia">Australia</option>
+						<td colspan="2"><select id="countryInput" name="country">
+							<option value="australia">Brazil</option>
 							<option value="canada">Canada</option>
+							<option value="australia">Colombia</option>
+							<option value="australia">France</option>
+							<option value="australia">Germany</option>
 							<option value="usa">USA</option>
 						</select></td>
+					</tr>
+					<tr class="tableLabel">
+						<td colspan="4">Continent</td>
+					</tr>
+					<tr class="tableInput">
+						<td class="radioTd" colspan="4"><input type="radio" name="continent" value="NA"> North America</td>
+					</tr>
+					<tr class="tableInput">
+						<td class="radioTd" colspan="4"><input type="radio" name="continent" value="EU"> Europe</td>
+					</tr>
+					<tr class="tableInput">
+						<td class="radioTd" colspan="4"><input type="radio" name="continent" value="SA"> South America</td>
 					</tr>
 				</table>
 			</div>
 
-			<p class="sectionHead">1. User Info</p>
-			<div id="sectionOne">
-				<table class="formTable">
+			<p class="sectionHead">3. Personal Details</p>
+			<div id="sectionThree">
+				<table class="formTable sect3">
 					<tr class="tableLabel">
-						<td>First Name</td>
-						<td>Last Name</td>
+						<td>Birth Day</td>
+						<td>Favourite Color</td>
 					</tr>
 					<tr class="tableInput">
-						<td><input type="text" name="firstname"></td>
-						<td><input type="text" name="lastname"></td>
+						<td><input type="text" name="birthday"></td>
+						<td><input type="color" name="color"></td>
 					</tr>
 					<tr class="tableLabel">
-						<td>Email</td>
+						<td colspan="2">Interest In Art</td>
 					</tr>
 					<tr class="tableInput">
-						<td colspan="2"><input id="emailInput" type="text" placeholder="format for email is xxx@yyy.zzz" name="email"></td>
+						<td id="rangeInput" colspan="2">Minimal<input type="range" name="interest" min="0" max="10">Love it!</td>
 					</tr>
-					<tr class="tableLabel">
-						<td>Password</td>
-						<td>Password Repeat</td>
+				</table>
+			</div>
+
+			<p class="sectionHead">4. All Done</p>
+			<div id="sectionFour">
+				<table class="formTable sect4">
+					<tr>
+						<td id="agreeInput"><input type="checkbox"> I agree to the <a href="#">Terms of the Site</a></td>
 					</tr>
-					<tr class="tableInput">
-						<td><input type="text" name="password" placeholder="at least 8 characters"></td>
-						<td><input id="pwRepeat" type="text" name="passwordRepeat" placeholder="at least 8 characters"></td>
+					<tr>
+						<td id="submitInput"><button><img src="images/button_ok.png" alt=""> Sign me up!</button></td>
 					</tr>
 				</table>
 			</div>
@@ -129,7 +148,7 @@
 	</div>
 
 	<div class="footer"> 
-		<p>All images are copyright to their owners. This is just a hypothetical site &#169 2014 Copyright Art Store</p>
+		<p>All images are copyright to their owners. This is just a hypothetical site &#169; 2014 Copyright Art Store</p>
 	</div>
 
 </div>
