@@ -1,0 +1,12 @@
+.dummy{
+	transform: scale(1);
+}
+
+.dummy:hover{
+	transform: scale(1.5);
+}
+
+.inputError{
+	background-color: pink;
+	border: 2px solid red;
+}
