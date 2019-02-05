@@ -1,5 +1,5 @@
 body{
-	background-image: url("images/stucco/stucco.png"); 
+	background-image: url("../images/stucco/stucco.png"); 
 }
 
 a:link, a:visited, a:hover, a:active{
@@ -364,6 +364,7 @@ input[type=color]{
 #agreeInput{
 	font-size: 13px;
 	font-weight: bold;
+	display: block;
 }
 
 #submitInput > button{
