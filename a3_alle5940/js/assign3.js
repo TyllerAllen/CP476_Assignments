@@ -89,7 +89,7 @@ window.onload = function(){
 			phoneIn.style.backgroundColor = "pink";
 			phoneIn.style.border = "1px solid red";
 			phoneIn.parentNode.appendChild(node.cloneNode());
-			if(emailIn.value == ""){
+			if(phoneIn.value == ""){
 				eArray.push("Phone number is required");
 			}
 			else{
